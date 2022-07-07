@@ -1,0 +1,445 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations,customfield_10010.requestTypePractice,customfield_10057.properties,customfield_10038.properties",
+  "id": "18728",
+  "self": "https://atlassian.net/rest/api/3/issue/18728",
+  "key": "III2-2558",
+  "fields": {
+    "statuscategorychangedate": "2022-05-13T10:58:53.723+0200",
+    "issuetype": {
+      "self": "https://atlassian.net/rest/api/3/issuetype/10004",
+      "id": "10004",
+      "description": "A problem or error.",
+      "iconUrl": "https://atlassian.net/rest/api/2/universal_aaa/view/type/issuetype/aaa/10303?size=medium",
+      "name": "Bug",
+      "subtask": false,
+      "avatarId": 10303,
+      "hierarchyLevel": 0
+    },
+    "timespent": null,
+    "customfield_10031": null,
+    "project": {
+      "self": "https://atlassian.net/rest/api/3/project/10038",
+      "id": "10038",
+      "key": "III2",
+      "name": "Project",
+      "projectTypeKey": "software",
+      "simplified": false,
+      "avatarUrls": {
+        "48x48": "https://atlassian.net/rest/api/3/universal_aaa/view/type/project/aaa/10416",
+        "24x24": "https://atlassian.net/rest/api/3/universal_aaa/view/type/project/aaa/10416?size=small",
+        "16x16": "https://atlassian.net/rest/api/3/universal_aaa/view/type/project/aaa/10416?size=xsmall",
+        "32x32": "https://atlassian.net/rest/api/3/universal_aaa/view/type/project/aaa/10416?size=medium"
+      }
+    },
+    "customfield_10075": null,
+    "customfield_10076": null,
+    "customfield_10032": null,
+    "customfield_10077": null,
+    "customfield_10033": null,
+    "fixVersions": [],
+    "customfield_10078": null,
+    "aggregatetimespent": null,
+    "customfield_10034": null,
+    "resolution": null,
+    "customfield_10079": null,
+    "resolutiondate": null,
+    "workratio": -1,
+    "watches": {
+      "self": "https://atlassian.net/rest/api/3/issue/III2-2558/watchers",
+      "watchCount": 2,
+      "isWatching": false
+    },
+    "issuerestriction": {
+      "issuerestrictions": {},
+      "shouldDisplay": false
+    },
+    "lastViewed": "2022-07-07T18:22:16.630+0200",
+    "customfield_10060": null,
+    "created": "2022-03-02T14:44:55.440+0100",
+    "customfield_10062": null,
+    "customfield_10063": null,
+    "customfield_10020": [
+      {
+        "id": 97,
+        "name": "Project Sprint 22.09",
+        "state": "active",
+        "boardId": 38,
+        "goal": "Close Q2 Epics - Feedback Loop Detector (VAC - phase 2) - Reduce App Disk size - TUNA Read API",
+        "startDate": "2022-07-04T14:26:55.055Z",
+        "endDate": "2022-07-22T20:00:00.000Z"
+      },
+      {
+        "id": 85,
+        "name": "Project Sprint 22.06",
+        "state": "closed",
+        "boardId": 38,
+        "goal": "D&D1, D&D2, IA Voices, VAC + las cosas de Óscar",
+        "startDate": "2022-04-29T20:14:15.925Z",
+        "endDate": "2022-05-20T17:27:00.000Z",
+        "completeDate": "2022-05-23T12:07:05.357Z"
+      },
+      {
+        "id": 89,
+        "name": "Project Sprint 22.07",
+        "state": "closed",
+        "boardId": 38,
+        "goal": "D&D 1&2; VAC; Store; ¿D&D3?; Las cosas de Óscar",
+        "startDate": "2022-05-25T07:14:21.625Z",
+        "endDate": "2022-06-08T04:27:00.000Z",
+        "completeDate": "2022-06-10T09:26:22.047Z"
+      }
+    ],
+    "customfield_10064": null,
+    "customfield_10021": null,
+    "customfield_10065": null,
+    "customfield_10022": "2022-05-13T14:12:37.756+0200",
+    "priority": {
+      "self": "https://atlassian.net/rest/api/3/priority/10005",
+      "iconUrl": "https://atlassian.net/images/icons/priority_major.gif",
+      "name": "Recurring",
+      "id": "10005"
+    },
+    "customfield_10023": null,
+    "customfield_10024": null,
+    "labels": [],
+    "customfield_10016": null,
+    "customfield_10017": null,
+    "customfield_10018": {
+      "hasEpicLinkFieldDependency": false,
+      "showField": true,
+      "nonEditableReason": {
+        "reason": "PLUGIN_LICENSE_ERROR",
+        "message": "The Parent Link is only available to Jira Premium users."
+      }
+    },
+    "customfield_10019": "0|i00elu:hnwqzzzzy",
+    "aggregatetimeoriginalestimate": null,
+    "timeestimate": null,
+    "versions": [],
+    "issuelinks": [
+      {
+        "id": "19530",
+        "self": "https://atlassian.net/rest/api/3/issueLink/19530",
+        "type": {
+          "id": "10002",
+          "name": "Duplicate",
+          "inward": "is duplicated by",
+          "outward": "duplicates",
+          "self": "https://atlassian.net/rest/api/3/issueLinkType/10002"
+        },
+        "inwardIssue": {
+          "id": "21702",
+          "key": "III-2919",
+          "self": "https://atlassian.net/rest/api/3/issue/21702",
+          "fields": {
+            "summary": "\"Voice Parameter Changed\" metric is only showing null and 0s",
+            "status": {
+              "self": "https://atlassian.net/rest/api/3/status/10000",
+              "description": "",
+              "iconUrl": "https://atlassian.net/",
+              "name": "To Do",
+              "id": "10000",
+              "statusCategory": {
+                "self": "https://atlassian.net/rest/api/3/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://atlassian.net/rest/api/3/priority/10011",
+              "iconUrl": "https://atlassian.net/images/icons/priorities/minor.svg",
+              "name": "Minor",
+              "id": "10011"
+            },
+            "issuetype": {
+              "self": "https://atlassian.net/rest/api/3/issuetype/10004",
+              "id": "10004",
+              "description": "A problem or error.",
+              "iconUrl": "https://atlassian.net/rest/api/2/universal_aaa/view/type/issuetype/aaa/10303?size=medium",
+              "name": "Bug",
+              "subtask": false,
+              "avatarId": 10303,
+              "hierarchyLevel": 0
+            }
+          }
+        }
+      }
+    ],
+    "assignee": {
+      "self": "https://atlassian.net/rest/api/3/user?accountId=acca2",
+      "accountId": "acca2",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/blabla/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/blabla/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/blabla/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/blabla/32"
+      },
+      "displayName": "Other Name 2",
+      "active": true,
+      "timeZone": "Europe/Madrid",
+      "accountType": "atlassian"
+    },
+    "updated": "2022-07-07T08:35:29.120+0200",
+    "status": {
+      "self": "https://atlassian.net/rest/api/3/status/10102",
+      "description": "The feature meets the Acceptance Criteria and has been reviewed by:\n1. Code review\n2. QA review\n3. Product review",
+      "iconUrl": "https://atlassian.net/images/icons/statuses/generic.png",
+      "name": "MR Review",
+      "id": "10102",
+      "statusCategory": {
+        "self": "https://atlassian.net/rest/api/3/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "In Progress"
+      }
+    },
+    "components": [
+      {
+        "self": "https://atlassian.net/rest/api/3/component/10016",
+        "id": "10016",
+        "name": "C#"
+      },
+      {
+        "self": "https://atlassian.net/rest/api/3/component/10016",
+        "id": "10016",
+        "name": "Aleksandar"
+      }
+    ],
+    "timeoriginalestimate": null,
+    "description": {
+      "version": 1,
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "We have to search for serialized/deserialized models and add JsonPropertyname to all fields, search references of:"
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "JsonConvert.DeserializeObject"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "JsonConvert.SerializeObject"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "V1AbstractExporter.DeserializeFileContents"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": []
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "This task has been created from PLAYERS-1560 in the old Jira task",
+              "marks": [
+                {
+                  "type": "strong"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "customfield_10010": null,
+    "customfield_10055": null,
+    "customfield_10056": null,
+    "customfield_10057": null,
+    "customfield_10014": null,
+    "customfield_10058": null,
+    "customfield_10059": null,
+    "timetracking": {},
+    "customfield_10015": null,
+    "customfield_10005": null,
+    "customfield_10006": null,
+    "security": null,
+    "customfield_10007": null,
+    "customfield_10008": null,
+    "customfield_10009": null,
+    "attachment": [],
+    "aggregatetimeestimate": null,
+    "summary": "Fix obfuscated metrics models",
+    "creator": {
+      "self": "https://atlassian.net/rest/api/3/user?accountId=acca2",
+      "accountId": "acca2",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/blabla/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/blabla/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/blabla/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/blabla/32"
+      },
+      "displayName": "Other Name 2",
+      "active": true,
+      "timeZone": "Europe/Madrid",
+      "accountType": "atlassian"
+    },
+    "customfield_10080": null,
+    "customfield_10081": null,
+    "subtasks": [],
+    "customfield_10082": null,
+    "customfield_10083": null,
+    "customfield_10040": null,
+    "customfield_10084": null,
+    "customfield_10041": [],
+    "reporter": {
+      "self": "https://atlassian.net/rest/api/3/user?accountId=acca2",
+      "accountId": "acca2",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/blabla/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/blabla/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/blabla/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/blabla/32"
+      },
+      "displayName": "Other Name 2",
+      "active": true,
+      "timeZone": "Europe/Madrid",
+      "accountType": "atlassian"
+    },
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10000": "{}",
+    "customfield_10001": null,
+    "customfield_10045": null,
+    "customfield_10002": null,
+    "customfield_10046": null,
+    "customfield_10047": null,
+    "customfield_10003": null,
+    "customfield_10004": null,
+    "customfield_10048": null,
+    "customfield_10038": null,
+    "customfield_10039": null,
+    "environment": null,
+    "duedate": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "votes": {
+      "self": "https://atlassian.net/rest/api/3/issue/III2-2558/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "comment": {
+      "comments": [
+        {
+          "self": "https://atlassian.net/rest/api/3/issue/18728/comment/26893",
+          "id": "26893",
+          "author": {
+            "self": "https://atlassian.net/rest/api/3/user?accountId=oho",
+            "accountId": "61eeaceb571f7600714ddb7f",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/lala/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/lala/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/lala/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/lala/32"
+            },
+            "displayName": "Random name",
+            "active": false,
+            "timeZone": "Europe/Madrid",
+            "accountType": "atlassian"
+          },
+          "body": {
+            "version": 1,
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "https://gitlab.com//bla-/merge_requests/1549",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "https://gitlab.com//bla-/merge_requests/1549"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "updateAuthor": {
+            "self": "https://atlassian.net/rest/api/3/user?accountId=oho",
+            "accountId": "61eeaceb571f7600714ddb7f",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/lala/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/lala/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/lala/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/lala/32"
+            },
+            "displayName": "Random name",
+            "active": false,
+            "timeZone": "Europe/Madrid",
+            "accountType": "atlassian"
+          },
+          "created": "2022-05-13T14:12:37.756+0200",
+          "updated": "2022-05-13T14:12:37.756+0200",
+          "jsdPublic": true
+        }
+      ],
+      "self": "https://atlassian.net/rest/api/3/issue/18728/comment",
+      "maxResults": 1,
+      "total": 1,
+      "startAt": 0
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    }
+  }
+}
